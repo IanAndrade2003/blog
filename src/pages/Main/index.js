@@ -27,7 +27,9 @@ export default function Main() {
       <S.Container>
         <S.Boxproject>
           <S.Boxone>
-            <a href="https://starwarsgambiarra.netlify.app/"><p>{query.starwars}</p></a> 
+            <a href="https://starwarsgambiarra.netlify.app/">
+              <p>{query.starwars}</p>
+            </a> 
           </S.Boxone>
           <S.Boxtwo>
           <a href="https://strytegygambiarra.netlify.app/">

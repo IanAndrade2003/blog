@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.footer`
   color: #fff;
   text-align: center;
   background: #1a1a1a;
@@ -15,7 +15,7 @@ export const Container = styled.section`
 export const Subtitle = styled.h2`
   font-size: 32px;
   height: 7%;
-`
+`;
 
 export const Paragraph = styled.p`
   font-size: 20px;
@@ -25,7 +25,7 @@ export const Paragraph = styled.p`
   @media (max-width: 768px) {
     width: 75%;
   }
-`
+`;
 
 export const Boxsocials = styled.div`
   display: flex;

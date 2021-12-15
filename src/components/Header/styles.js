@@ -18,7 +18,7 @@ export const Boxlogo = styled.div`
   justify-content: center;
   width: 70%;
   height: 70%;
-`
+`;
 
 export const Imag = styled.img`
   display: flex;
