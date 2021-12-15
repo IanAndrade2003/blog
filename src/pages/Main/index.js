@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import * as S from "./styles";
-import { Link } from "gatsby";
+import Route from "../../components/Route"
 import GlobalStyle from "../../components/GlobalStyles";
 
 export default function Main() {
@@ -52,11 +52,7 @@ export default function Main() {
             </a>
           </S.Boxfive>
         </S.Boxproject>
-        <S.Box>
-        <S.List><Link to="/">inicio</Link></S.List>
-        <S.List><Link to="/Main">Projetos</Link></S.List>
-        <S.List><Link to="/Footer">Contatos</Link></S.List>
-        </S.Box>
+        <Route />
       </S.Container>
     </>
   );

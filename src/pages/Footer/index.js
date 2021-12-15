@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import * as S from "./styles";
-import { Link } from "gatsby";
+import Route from "../../components/Route"
 import GlobalStyle from "../../components/GlobalStyles";
 
 export default function Footer() {
@@ -30,11 +30,7 @@ export default function Footer() {
     <S.Paragraphsocials><a href="https://www.linkedin.com/in/ian-andrade-349b0320a/">{query.linkedin}</a></S.Paragraphsocials>
     <S.Paragraphsocials><a href="https://github.com/IanAndrade2003">{query.github}</a></S.Paragraphsocials>
     </S.Boxsocials>
-    <S.Box>
-      <S.List><Link to="/">inicio</Link></S.List>
-      <S.List><Link to="/Main">Projetos</Link></S.List>
-      <S.List><Link to="/Footer">Contatos</Link></S.List>
-      </S.Box>
+    <Route />
   </S.Container>
   </>
   );
